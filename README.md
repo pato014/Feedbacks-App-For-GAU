@@ -9,3 +9,5 @@ $ pip install -r requirements.tx
 
 # Run server
 $ python manage.py runserver
+
+# Test App on next endpoint: /api/messages/
