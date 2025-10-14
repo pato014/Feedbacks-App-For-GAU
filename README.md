@@ -1,13 +1,28 @@
 # Feedbacks-App-For-GAU
 
-# Create virtual environment
+```markdown
+1. Create virtual environment
 
-# Activate virtual environment
-next
-# Run 
-$ pip install -r requirements.tx
+2. Activate virtual environment
 
-# Run server
-$ python manage.py runserver
+```
+
+# Run & Build
+
+For first time only use --build flag
+
+```sh
+ docker compose up --build
+
+```
+
+# Shutdown server
+
+```sh
+ docker compose down
+
+```
+
+or ctrl + C
 
 # Test App on next endpoint: /api/messages/
