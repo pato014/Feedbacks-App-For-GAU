@@ -14,9 +14,10 @@ RUN pip install --upgrade pip && \
 COPY . /app/
 
 # Collect static files (optional, uncomment if you have static files configured)
-# RUN python manage.py collectstatic --noinput
+RUN python manage.py collectstatic --noinput
 
 # Expose port
 EXPOSE 8000
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD python manage.py migrate && \
+    python manage.py runserver 0.0.0.0:8000
