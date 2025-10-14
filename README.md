@@ -9,7 +9,7 @@
 
 # Run & Build
 
-For first time only use --build flag
+For first run only use --build flag, after that only `docker compose up `
 
 ```sh
  docker compose up --build
