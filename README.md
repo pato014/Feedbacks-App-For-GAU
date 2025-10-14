@@ -25,4 +25,13 @@ For first time only use --build flag
 
 or ctrl + C
 
-# Test App on next endpoint: /api/messages/
+# Test App on next endpoint: [localhost:8000]()
+
+```
+**For creating superuser for backend use run next command and follow instructions:**
+```
+```sh
+ python manage.py createsuperuser
+```
+
+Visit [localhost:8000/admin]()
