@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.top-bar {
+    background-color: #1451a4;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    height: 130px;
+    font-size: 1rem;
+    font-weight: 500;
+    z-index: 0;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 60px);
+    padding: 0px 20px;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+.feedback-card {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+}
+
+.feedback-card label {
+    font-weight: 500;
+    color: #333;
+}
+
+.btn-custom {
+    background-color: #1451a4;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+.btn-custom:hover {
+    background-color: #032a4e;
+    color: white;
+}
+
+.success-container{
+    text-align: center;
+    padding: 50px;
+}
+
+.success-container img{
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+.success-container .title{
+    font-weight: 500;
+}
+
+.repeat-btn{
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    color: #1451a4;
+}
